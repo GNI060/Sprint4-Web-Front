@@ -1,6 +1,5 @@
 import React from 'react';
-import './style.css';
-import { Link } from 'react-router-dom';
+import './header.css';
 import logo from '../../assets/sabaraLogo2.png';
 
 function Header() {
@@ -26,16 +25,16 @@ function Header() {
         <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul className="navbar-nav me-auto">
             <li className="nav-item">
-              <a className="nav-link" href="#">Projeto</a>
+              <a className="nav-link" href="Projeto">Projeto</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Serviços</a>
+              <a className="nav-link" href="#">Novidades</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Saúde e Bem-estar</a>
+              <a className="nav-link" href="#">Transferências</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Unidades</a>
+              <a className="nav-link" href="#">Agendamento</a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">Central de Atendimento</a>

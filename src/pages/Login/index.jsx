@@ -1,5 +1,5 @@
 import React from 'react';
-import './style.css'; // certifique-se que o style.css esteja correto
+import './login.css';
 
 function Login() {
   return (

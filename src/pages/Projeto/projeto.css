@@ -1,0 +1,48 @@
+/* Estilos específicos para a página "Projeto" */
+.projeto {
+    padding-top: 100px; /* Evita que o conteúdo fique coberto pelo header */
+    min-height: 65vh; /* Garante que o conteúdo ocupe toda a altura da tela */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Garante que o footer fique fixo ao fundo */
+  footer {
+    margin-top: auto; /* Faz o footer ficar na parte inferior */
+  }
+  
+  /* Estilos para o conteúdo da página */
+  .projeto .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Ajustes para o texto */
+  .projeto .text-primary {
+    color: #007bff;
+  }
+  
+  .projeto .col-md-6, .projeto .col-12 {
+    padding: 15px;
+  }
+  
+  .projeto .text-center {
+    text-align: center;
+  }
+  
+  .projeto .mb-4 {
+    margin-bottom: 1.5rem;
+  }
+  
+  .projeto .mt-5 {
+    margin-top: 3rem;
+  }
+  
+  /* Imagem no container */
+  .projeto .imagem-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  

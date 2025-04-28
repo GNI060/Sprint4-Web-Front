@@ -4,6 +4,7 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import Login from './pages/Login';
 import Cadastro from './pages/Cadastro'; // Importando a página de cadastro
+import Projeto from './pages/Projeto';
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/login" element={<Login />} />
-          <Route path="/cadastro" element={<Cadastro />} /> {/* Rota para a página de cadastro */}
+          <Route path="/cadastro" element={<Cadastro />} /> 
+          <Route path="/Projeto" element={<Projeto />} /> 
         </Routes>
       </div>
       <Footer />
