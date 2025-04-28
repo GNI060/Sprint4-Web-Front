@@ -1,10 +1,11 @@
 import React from 'react';
 import './style.css';
+import { Link } from 'react-router-dom';
 import logo from '../../assets/sabaraLogo2.png';
 
 function Header() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <div className="container">
         <a className="navbar-brand" href="/">
           <img src={logo} alt="Logo" />
@@ -25,7 +26,7 @@ function Header() {
         <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul className="navbar-nav me-auto">
             <li className="nav-item">
-              <a className="nav-link" href="#">Sobre</a>
+              <a className="nav-link" href="#">Projeto</a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">Serviços</a>
@@ -45,7 +46,7 @@ function Header() {
             <button className="search-button" aria-label="Buscar">
               <i className="bi bi-search"></i>
             </button>
-            <a href="#" className="mein-sabara-button" aria-label="Entrar na conta">
+            <a href="Login" className="mein-sabara-button" aria-label="Entrar na conta">
               <i className="bi bi-person-fill"></i> Entrar
             </a>
           </div>

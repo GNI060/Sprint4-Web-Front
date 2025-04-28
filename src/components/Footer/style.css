@@ -132,6 +132,7 @@
     .copyright {
         text-align: left; /* Alinha o copyright à esquerda em telas maiores */
         padding-top: 15px;
+        color: #fff;
     }
 
     .footer-links {

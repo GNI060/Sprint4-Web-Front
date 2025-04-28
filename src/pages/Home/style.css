@@ -12,8 +12,8 @@
   }
 
   .novidade-card img {
-    width: 100%;  /* Garante que a imagem ocupe 100% da largura do card */
-    height: 500px; /* Limita a altura da imagem */
+    width: 100%; 
+    height: 500px; 
   }
 
   .novidade-card-body {

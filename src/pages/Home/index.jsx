@@ -1,11 +1,9 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap-icons/font/bootstrap-icons.css';
 import './style.css'; 
 
 function Home() {
   return (
-    <div>
+    <div style={{ paddingTop: '80px' }}>
       {/* Carrossel */}
       <section aria-label="Carrossel Principal" className="container" style={{ maxWidth: '100%' }}>
         <div id="carouselSabara" className="carousel slide mb-5" data-bs-ride="carousel">
