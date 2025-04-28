@@ -4,7 +4,7 @@ import './login.css';
 function Login() {
   return (
     <div className="d-flex justify-content-center align-items-center" style={{ minHeight: '100vh', paddingTop: '70px' }}>
-      <section className="login-container">
+      <main className="login-container">
         <h2 className="login-heading text-center mb-4">Login</h2>
         <form>
           <fieldset className="form-group mb-3">
@@ -23,7 +23,7 @@ function Login() {
         <p className="mt-3 text-center">
           Não tem uma conta? <a href="/cadastro">Cadastre-se</a>
         </p>
-      </section>
+      </main>
     </div>
   );
 }

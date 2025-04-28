@@ -6,8 +6,8 @@ function Header() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <div className="container">
-        <a className="navbar-brand" href="/">
-          <img src={logo} alt="Logo" />
+        <a className="navbar-brand" href="/" aria-label="Ir para a página inicial">
+          <img src={logo} alt="Logo do Hospital Sabará" />
         </a>
 
         <button 
@@ -25,16 +25,16 @@ function Header() {
         <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul className="navbar-nav me-auto">
             <li className="nav-item">
-              <a className="nav-link" href="Projeto">Projeto</a>
+              <a className="nav-link" href="/projeto" aria-label="Ir para o Projeto">Projeto</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="Novidades">Novidades</a>
+              <a className="nav-link" href="/novidades" aria-label="Ir para as Novidades">Novidades</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="Transferencias">Transferências</a>
+              <a className="nav-link" href="/transferencias" aria-label="Ir para as Transferências">Transferências</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Central de Atendimento</a>
+              <a className="nav-link" href="/centralatendimento" aria-label="Ir para a Central de Atendimento">Central de Atendimento</a>
             </li>
           </ul>
 
@@ -42,7 +42,7 @@ function Header() {
             <button className="search-button" aria-label="Buscar">
               <i className="bi bi-search"></i>
             </button>
-            <a href="Login" className="mein-sabara-button" aria-label="Entrar na conta">
+            <a href="/login" className="mein-sabara-button" aria-label="Entrar na conta">
               <i className="bi bi-person-fill"></i> Entrar
             </a>
           </div>

@@ -7,6 +7,7 @@ import Cadastro from './pages/Cadastro';
 import Projeto from './pages/Projeto';
 import Novidades from './pages/Novidades';
 import Transferencias from './pages/Transferencias';
+import CentralAtendimento from './pages/CentralAtendimento';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/Projeto" element={<Projeto />} /> 
           <Route path="/Novidades" element={<Novidades />} /> 
           <Route path="/Transferencias" element={<Transferencias />} /> 
+          <Route path="/CentralAtendimento" element={<CentralAtendimento />} /> 
         </Routes>
       </div>
       <Footer />

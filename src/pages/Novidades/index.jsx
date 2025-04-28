@@ -3,10 +3,10 @@ import './novidades.css';
 
 function Novidades() {
   return (
-    <div className="container dispositivo-page mt-5 mb-5">
+    <main className="container dispositivo-page mt-5 mb-5">
       <h1 className="text-primary mb-4 text-center">Monitor Infantil: Saúde e Diversão em Um Só Lugar</h1>
 
-      <div className="row mb-5">
+      <section className="row mb-5">
         <div className="col-md-6">
           <p>
             Pensando no bem-estar das crianças durante a medição da saturação sanguínea e batimentos cardíacos, 
@@ -19,15 +19,15 @@ function Novidades() {
           </p>
         </div>
         <div className="col-md-6 text-center">
-          <img src="./src/assets/projetoEdge.jpg" alt="Imagem do dispositivo de medição infantil" className="img-fluid rounded shadow"/>
+          <img src="./src/assets/projetoEdge.jpg" alt="Imagem do dispositivo de medição infantil" className="img-fluid rounded shadow" />
         </div>
-      </div>
+      </section>
 
-      <div className="row mb-5">
-      <div className="col-md-6 text-center order-md-2">
-        <video src="./src/assets/dispositivo-piano.mp4" controls className="img-fluid rounded shadow">
+      <section className="row mb-5">
+        <div className="col-md-6 text-center order-md-2">
+          <video src="./src/assets/dispositivo-piano.mp4" controls className="img-fluid rounded shadow">
             Seu navegador não suporta vídeo HTML5.
-        </video>
+          </video>
         </div>
 
         <div className="col-md-6 order-md-1">
@@ -38,9 +38,9 @@ function Novidades() {
             ajudando a reduzir o estresse e a ansiedade durante o procedimento.
           </p>
         </div>
-      </div>
+      </section>
 
-      <div className="row mb-5">
+      <section className="row mb-5">
         <div className="col-md-6">
           <h2 className="text-primary mb-3">Dashboard Inclusivo para Crianças com Deficiência Auditiva</h2>
           <p>
@@ -49,8 +49,8 @@ function Novidades() {
             promovendo mais autonomia e segurança.
           </p>
         </div>
-      </div>
-    </div>
+      </section>
+    </main>
   );
 }
 

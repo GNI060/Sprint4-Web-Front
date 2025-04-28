@@ -1,32 +1,32 @@
 .footer-dark {
-    background-color: #00A2E8; /* Cor de fundo teal escura */
-    color: #fff; /* Cor do texto branco */
+    background-color: #00A2E8; 
+    color: #fff; 
     padding: 30px 0;
-    text-align: center; /* Centraliza o texto em telas menores por padrão */
+    text-align: center; 
 }
 
 .footer-section {
     padding: 15px 0;
-    border-bottom: 1px solid turquoise; /* Linha divisória sutil */
+    border-bottom: 1px solid turquoise; 
 }
 
 .footer-section:last-child {
-    border-bottom: none; /* Remove a linha da última seção */
+    border-bottom: none;
 }
 
 .footer-title {
     font-size: 1rem;
     font-weight: bold;
-    margin-bottom: 10px; /* Adiciona margem abaixo do título em telas menores */
-    white-space: nowrap; /* Evita que o título quebre a linha */
+    margin-bottom: 10px; 
+    white-space: nowrap;
 }
 
 .contact-links,
 .social-links,
 .schedule-info {
     display: flex;
-    flex-direction: column; /* Empilha os itens em telas menores */
-    align-items: center; /* Centraliza os itens em telas menores */
+    flex-direction: column; 
+    align-items: center;
 }
 
 .contact-links a,
@@ -35,13 +35,13 @@
     align-items: center;
     color: #fff;
     text-decoration: none;
-    margin-right: 0; /* Remove a margem direita em telas menores */
-    margin-bottom: 8px; /* Adiciona margem abaixo dos links em telas menores */
+    margin-right: 0; 
+    margin-bottom: 8px; 
 }
 
 .contact-links a:last-child,
 .social-links a:last-child {
-    margin-bottom: 0; /* Remove a margem inferior do último link */
+    margin-bottom: 0;
 }
 
 .contact-links i,
@@ -63,14 +63,13 @@
     font-weight: bold;
 }
 
-/* Estilos específicos para os ícones de redes sociais */
 .social-links a {
     border: 1px solid #fff;
     border-radius: 50%;
     width: 30px;
     height: 30px;
     justify-content: center;
-    margin-right: 10px; /* Restaura a margem direita em telas maiores */
+    margin-right: 10px;
 }
 
 .social-links i {
@@ -82,27 +81,26 @@
 .footer-links {
     font-size: 0.8rem;
     padding-top: 15px;
-    text-align: center; /* Centraliza o texto em telas menores */
+    text-align: center; 
 }
 
 .footer-links {
-    margin-top: 10px; /* Adiciona margem acima dos links em telas menores */
+    margin-top: 10px;
 }
 
 .footer-links a {
     color: #fff;
     text-decoration: none;
-    margin: 0 10px; /* Adiciona margem horizontal entre os links */
+    margin: 0 10px; 
 }
 
 .footer-links a:hover {
     text-decoration: underline;
 }
 
-/* Estilos para telas médias e maiores */
 @media (min-width: 768px) {
     .footer-dark {
-        text-align: left; /* Alinha o texto à esquerda em telas maiores */
+        text-align: left; 
     }
 
     .footer-section {
@@ -114,29 +112,29 @@
     .contact-links,
     .social-links,
     .schedule-info {
-        flex-direction: row; /* Alinha os itens horizontalmente em telas maiores */
+        flex-direction: row;
         align-items: center;
     }
 
     .footer-title {
-        margin-bottom: 0; /* Remove a margem inferior do título em telas maiores */
+        margin-bottom: 0; 
         margin-right: 20px;
     }
 
     .contact-links a,
     .social-links a {
-        margin-right: 15px; /* Restaura a margem direita dos links */
-        margin-bottom: 0; /* Remove a margem inferior dos links */
+        margin-right: 15px; 
+        margin-bottom: 0;
     }
 
     .copyright {
-        text-align: left; /* Alinha o copyright à esquerda em telas maiores */
+        text-align: left; 
         padding-top: 15px;
         color: #fff;
     }
 
     .footer-links {
-        text-align: right; /* Alinha os links à direita em telas maiores */
-        margin-top: 0; /* Remove a margem superior dos links em telas maiores */
+        text-align: right; 
+        margin-top: 0;
     }
 }
