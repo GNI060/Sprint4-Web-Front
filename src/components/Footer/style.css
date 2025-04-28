@@ -1,0 +1,141 @@
+.footer-dark {
+    background-color: #00A2E8; /* Cor de fundo teal escura */
+    color: #fff; /* Cor do texto branco */
+    padding: 30px 0;
+    text-align: center; /* Centraliza o texto em telas menores por padrão */
+}
+
+.footer-section {
+    padding: 15px 0;
+    border-bottom: 1px solid turquoise; /* Linha divisória sutil */
+}
+
+.footer-section:last-child {
+    border-bottom: none; /* Remove a linha da última seção */
+}
+
+.footer-title {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 10px; /* Adiciona margem abaixo do título em telas menores */
+    white-space: nowrap; /* Evita que o título quebre a linha */
+}
+
+.contact-links,
+.social-links,
+.schedule-info {
+    display: flex;
+    flex-direction: column; /* Empilha os itens em telas menores */
+    align-items: center; /* Centraliza os itens em telas menores */
+}
+
+.contact-links a,
+.social-links a {
+    display: inline-flex;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 0; /* Remove a margem direita em telas menores */
+    margin-bottom: 8px; /* Adiciona margem abaixo dos links em telas menores */
+}
+
+.contact-links a:last-child,
+.social-links a:last-child {
+    margin-bottom: 0; /* Remove a margem inferior do último link */
+}
+
+.contact-links i,
+.social-links i {
+    font-size: 1.2rem;
+    margin-right: 5px;
+}
+
+.contact-links span {
+    white-space: nowrap;
+}
+
+.schedule-info p {
+    margin: 5px 0;
+    font-size: 0.9rem;
+}
+
+.schedule-info strong {
+    font-weight: bold;
+}
+
+/* Estilos específicos para os ícones de redes sociais */
+.social-links a {
+    border: 1px solid #fff;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    margin-right: 10px; /* Restaura a margem direita em telas maiores */
+}
+
+.social-links i {
+    font-size: 1rem;
+    margin-right: 0;
+}
+
+.copyright,
+.footer-links {
+    font-size: 0.8rem;
+    padding-top: 15px;
+    text-align: center; /* Centraliza o texto em telas menores */
+}
+
+.footer-links {
+    margin-top: 10px; /* Adiciona margem acima dos links em telas menores */
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px; /* Adiciona margem horizontal entre os links */
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para telas médias e maiores */
+@media (min-width: 768px) {
+    .footer-dark {
+        text-align: left; /* Alinha o texto à esquerda em telas maiores */
+    }
+
+    .footer-section {
+        display: flex;
+        align-items: center;
+        padding: 10px 0;
+    }
+
+    .contact-links,
+    .social-links,
+    .schedule-info {
+        flex-direction: row; /* Alinha os itens horizontalmente em telas maiores */
+        align-items: center;
+    }
+
+    .footer-title {
+        margin-bottom: 0; /* Remove a margem inferior do título em telas maiores */
+        margin-right: 20px;
+    }
+
+    .contact-links a,
+    .social-links a {
+        margin-right: 15px; /* Restaura a margem direita dos links */
+        margin-bottom: 0; /* Remove a margem inferior dos links */
+    }
+
+    .copyright {
+        text-align: left; /* Alinha o copyright à esquerda em telas maiores */
+        padding-top: 15px;
+    }
+
+    .footer-links {
+        text-align: right; /* Alinha os links à direita em telas maiores */
+        margin-top: 0; /* Remove a margem superior dos links em telas maiores */
+    }
+}
