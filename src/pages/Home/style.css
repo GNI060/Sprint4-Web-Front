@@ -1,0 +1,23 @@
+.card-hover:hover {
+    transform: translateY(-8px);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  }
+
+  .novidade-card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    align-items: center;
+  }
+
+  .novidade-card img {
+    width: 100%;  /* Garante que a imagem ocupe 100% da largura do card */
+    height: 500px; /* Limita a altura da imagem */
+  }
+
+  .novidade-card-body {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+  }
