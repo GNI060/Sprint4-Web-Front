@@ -28,13 +28,10 @@ function Header() {
               <a className="nav-link" href="Projeto">Projeto</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Novidades</a>
+              <a className="nav-link" href="Novidades">Novidades</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Transferências</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">Agendamento</a>
+              <a className="nav-link" href="Transferencias">Transferências</a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">Central de Atendimento</a>

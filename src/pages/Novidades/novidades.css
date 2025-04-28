@@ -1,0 +1,17 @@
+.dispositivo-page {
+    padding-top: 80px;
+  }
+  
+  h1, h2 {
+    font-weight: bold;
+  }
+  
+  p {
+    font-size: 1.1rem;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
