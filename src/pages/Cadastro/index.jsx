@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './cadastro.css';
 
+// LocalStorage
 function Cadastro() {
   const [formData, setFormData] = useState({
     name: '',
@@ -19,13 +20,32 @@ function Cadastro() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    
     if (formData.password !== formData.confirmPassword) {
       alert('As senhas não coincidem');
     } else {
-      console.log('Dados do cadastro:', formData);
+      const usuario = {
+        name: formData.name,
+        email: formData.email,
+        password: formData.password
+      };
+      localStorage.setItem('usuario', JSON.stringify(usuario));
+
+      alert('Cadastro realizado com sucesso!');
+      
+      setFormData({
+        name: '',
+        email: '',
+        password: '',
+        confirmPassword: ''
+      });
+
+
+      window.location.href = '/Login';
     }
   };
 
+  // HTML
   return (
     <section className="register-container">
       <h1 className="register-heading">Cadastro</h1>

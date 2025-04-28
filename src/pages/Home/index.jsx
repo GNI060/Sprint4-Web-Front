@@ -51,8 +51,9 @@ function Home() {
       {/* Nossos Serviços */}
       <section style={{ backgroundColor: '#00A2E8', padding: '30px' }} className="container-fluid my-5">
         <h2 className="text-center mb-4 text-white">Nossos Serviços</h2>
-        <div className="row row-cols-1 row-cols-md-4 g-4 justify-content-center">
-          <article className="col-md-3">
+        <div className="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4 justify-content-center">
+          {/* Cards */}
+          <article className="col">
             <div className="card h-100 text-center p-3 card-hover" style={{ cursor: 'pointer' }}>
               <div className="mx-auto mb-2 bg-primary text-white rounded p-2" style={{ width: '40px', height: '40px' }}>
                 <i className="bi bi-hospital"></i>
@@ -61,8 +62,7 @@ function Home() {
               <p className="card-text small">Tratamentos especializados e infraestrutura de ponta para casos complexos.</p>
             </div>
           </article>
-
-          <article className="col-md-3">
+          <article className="col">
             <div className="card h-100 text-center p-3 card-hover" style={{ cursor: 'pointer' }}>
               <div className="mx-auto mb-2 bg-primary text-white rounded p-2" style={{ width: '40px', height: '40px' }}>
                 <i className="bi bi-clipboard2-pulse"></i>
@@ -71,66 +71,7 @@ function Home() {
               <p className="card-text small">Atendimento em diversas áreas médicas com profissionais especializados.</p>
             </div>
           </article>
-
-          <article className="col-md-3">
-            <div className="card h-100 text-center p-3 card-hover" style={{ cursor: 'pointer' }}>
-              <div className="mx-auto mb-2 bg-primary text-white rounded p-2" style={{ width: '40px', height: '40px' }}>
-                <i className="bi bi-search"></i>
-              </div>
-              <h5 className="card-title">Apoio Diagnóstico</h5>
-              <p className="card-text small">Exames laboratoriais e de imagem com alta precisão e agilidade.</p>
-            </div>
-          </article>
-
-          <article className="col-md-3">
-            <div className="card h-100 text-center p-3 card-hover" style={{ cursor: 'pointer' }}>
-              <div className="mx-auto mb-2 bg-primary text-white rounded p-2" style={{ width: '40px', height: '40px' }}>
-                <i className="bi bi-scissors"></i>
-              </div>
-              <h5 className="card-title">Centro Cirúrgico</h5>
-              <p className="card-text small">Salas cirúrgicas modernas com tecnologia de última geração.</p>
-            </div>
-          </article>
-
-          <article className="col-md-3">
-            <div className="card h-100 text-center p-3 card-hover" style={{ cursor: 'pointer' }}>
-              <div className="mx-auto mb-2 bg-primary text-white rounded p-2" style={{ width: '40px', height: '40px' }}>
-                <i className="bi bi-clock-history"></i>
-              </div>
-              <h5 className="card-title">Hospital Dia</h5>
-              <p className="card-text small">Procedimentos rápidos com alta segurança e retorno no mesmo dia.</p>
-            </div>
-          </article>
-
-          <article className="col-md-3">
-            <div className="card h-100 text-center p-3 card-hover" style={{ cursor: 'pointer' }}>
-              <div className="mx-auto mb-2 bg-primary text-white rounded p-2" style={{ width: '40px', height: '40px' }}>
-                <i className="bi bi-house-heart"></i>
-              </div>
-              <h5 className="card-title">Internação</h5>
-              <p className="card-text small">Ambientes confortáveis e seguros para recuperação do paciente.</p>
-            </div>
-          </article>
-
-          <article className="col-md-3">
-            <div className="card h-100 text-center p-3 card-hover" style={{ cursor: 'pointer' }}>
-              <div className="mx-auto mb-2 bg-primary text-white rounded p-2" style={{ width: '40px', height: '40px' }}>
-                <i className="bi bi-exclamation-triangle"></i>
-              </div>
-              <h5 className="card-title">Pronto Socorro</h5>
-              <p className="card-text small">Atendimento emergencial 24h para situações críticas.</p>
-            </div>
-          </article>
-
-          <article className="col-md-3">
-            <div className="card h-100 text-center p-3 card-hover" style={{ cursor: 'pointer' }}>
-              <div className="mx-auto mb-2 bg-primary text-white rounded p-2" style={{ width: '40px', height: '40px' }}>
-                <i className="bi bi-heart-pulse"></i>
-              </div>
-              <h5 className="card-title">Terapia Intensiva</h5>
-              <p className="card-text small">UTIs equipadas para garantir cuidado contínuo e especializado.</p>
-            </div>
-          </article>
+          {/* Outros Cards */}
         </div>
       </section>
 
@@ -166,7 +107,6 @@ function Home() {
               </div>
             </article>
           </div>
-
           <div className="col">
             <div className="map-container h-100">
               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.5169674148906!2d-46.66183478840023!3d-23.549869578719285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5831b56f76c7%3A0xc1c434e6ae0e8fa8!2sSabar%C3%A1%20Hospital%20Infantil!5e0!3m2!1spt-BR!2sbr!4v1745594594254!5m2!1spt-BR!2sbr" width="100%" height="100%" style={{ border: '0' }} allowFullScreen="" loading="lazy"></iframe>

@@ -42,7 +42,6 @@ function Transferencias() {
             </div>
           </div>
 
-
           <div className="mb-3">
             <label className="form-label">Data de Nascimento</label>
             <input type="date" className="form-control" required />
