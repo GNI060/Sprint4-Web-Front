@@ -31,28 +31,12 @@ function Login() {
         <form onSubmit={handleSubmit}>
           <fieldset className="form-group mb-3">
             <label htmlFor="email" className="form-label">Email</label>
-            <input
-              type="email"
-              className="form-control"
-              id="email"
-              placeholder="Digite seu email"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-              required
-            />
+            <input type="email" className="form-control" id="email" placeholder="Digite seu email" value={email} onChange={(e) => setEmail(e.target.value)} required/>
           </fieldset>
 
           <fieldset className="form-group mb-3">
             <label htmlFor="password" className="form-label">Senha</label>
-            <input
-              type="password"
-              className="form-control"
-              id="password"
-              placeholder="Digite sua senha"
-              value={password}
-              onChange={(e) => setPassword(e.target.value)}
-              required
-            />
+            <input type="password" className="form-control" id="password" placeholder="Digite sua senha" value={password} onChange={(e) => setPassword(e.target.value)} required/>
           </fieldset>
 
           <button type="submit" className="btn btn-primary w-100">Entrar</button>

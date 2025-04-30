@@ -22,23 +22,13 @@ function Novidades() {
         </div>
 
         <div className="col-12 col-md-6 text-center">
-          <img 
-            src="./src/assets/projetoEdge.jpg" 
-            alt="Imagem do dispositivo de medição infantil" 
-            className="img-fluid rounded shadow" 
-            style={{ maxWidth: '100%', height: 'auto' }}
-          />
+          <img src="./src/assets/projetoEdge.jpg" alt="Imagem do dispositivo de medição infantil" className="img-fluid rounded shadow" style={{ maxWidth: '100%', height: 'auto' }}/>
         </div>
       </section>
 
       <section className="row align-items-center mb-5">
         <div className="col-12 col-md-6 text-center order-md-2 mb-4 mb-md-0">
-          <video 
-            src="./src/assets/dispositivo-piano.mp4" 
-            controls 
-            className="img-fluid rounded shadow" 
-            style={{ maxWidth: '100%', height: 'auto' }}
-          >
+          <video src="./src/assets/dispositivo-piano.mp4" controls className="img-fluid rounded shadow" style={{ maxWidth: '100%', height: 'auto' }}>
             Seu navegador não suporta vídeo HTML5.
           </video>
         </div>

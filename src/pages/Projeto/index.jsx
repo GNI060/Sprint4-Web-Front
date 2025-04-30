@@ -17,12 +17,7 @@ function Projeto() {
 
         <div className="col-12 col-md-6 text-center">
           <div className="imagem-container">
-            <img 
-              src="./src/assets/sabara-projeto.webp" 
-              alt="Caderno com mensagem" 
-              className="img-fluid rounded" 
-              style={{ maxWidth: "100%", height: "auto" }}
-            />
+            <img src="./src/assets/sabara-projeto.webp" alt="Caderno com mensagem" className="img-fluid rounded" style={{ maxWidth: "100%", height: "auto" }}/>
           </div>
         </div>
 
