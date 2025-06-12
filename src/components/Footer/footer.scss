@@ -1,0 +1,154 @@
+@import "../../styles/abstracts/bootstrap-config";
+
+.footer-dark {
+  background-color: $info;
+  color: $white;
+  padding: $spacer * 1.5 0;
+  text-align: center;
+}
+
+.footer-section {
+  padding: $spacer * 0.75 0;
+  border-bottom: 1px solid turquoise;
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.footer-title {
+  font-size: $font-size-base;
+  font-weight: $font-weight-bold;
+  margin-bottom: $spacer * 0.5;
+  white-space: nowrap;
+}
+
+.contact-links,
+.schedule-info {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+
+  a {
+    display: inline-flex;
+    align-items: center;
+    color: $white;
+    text-decoration: none;
+    margin-right: 0;
+    margin-bottom: $spacer * 0.4;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  i {
+    font-size: $font-size-base * 1.2;
+    margin-right: $spacer * 0.25;
+  }
+}
+
+.social-links {
+  display: flex;
+  flex-direction: row; 
+  justify-content: center;
+  align-items: center;
+
+  a {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    border: 1px solid $white;
+    border-radius: $border-radius-pill;
+    width: 30px;
+    height: 30px;
+    margin-right: $spacer;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  i {
+    color: $white;
+    font-size: $font-size-base;
+    margin-right: 0;
+  }
+}
+
+.contact-links {
+  span {
+    white-space: nowrap;
+  }
+}
+
+.schedule-info {
+  p {
+    margin: $spacer * 0.25 0;
+    font-size: $font-size-base * 0.9;
+  }
+
+  strong {
+    font-weight: $font-weight-bold;
+  }
+}
+
+.copyright,
+.footer-links {
+  font-size: $font-size-base * 0.8;
+  padding-top: $spacer * 0.75;
+  text-align: center;
+}
+
+.footer-links {
+  margin-top: $spacer * 0.5;
+
+  a {
+    color: $white;
+    text-decoration: none;
+    margin: 0 $spacer * 0.5;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .footer-dark {
+    text-align: left;
+  }
+
+  .footer-section {
+    display: flex;
+    align-items: center;
+    padding: $spacer * 0.5 0;
+  }
+
+  .contact-links,
+  .schedule-info {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .footer-title {
+    margin-bottom: 0;
+    margin-right: $spacer;
+  }
+
+  .contact-links a { 
+    margin-right: $spacer * 0.75;
+    margin-bottom: 0;
+  }
+
+  .copyright {
+    text-align: left;
+    padding-top: $spacer * 0.75;
+    color: $white;
+  }
+
+  .footer-links {
+    text-align: right;
+    margin-top: 0;
+  }
+}

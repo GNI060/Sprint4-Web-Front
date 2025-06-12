@@ -1,5 +1,5 @@
 import React from 'react';
-import './projeto.css';
+import './projeto.scss';
 
 function Projeto() {
   return (

@@ -1,5 +1,4 @@
-import React from 'react';
-import './header.css';
+import './header.scss';
 import logo from '../../assets/sabaraLogo2.png';
 
 function Header() {
@@ -10,15 +9,7 @@ function Header() {
           <img src={logo} alt="Logo do Hospital Sabará" />
         </a>
 
-        <button 
-          className="navbar-toggler" 
-          type="button" 
-          data-bs-toggle="collapse" 
-          data-bs-target="#navbarNav" 
-          aria-controls="navbarNav" 
-          aria-expanded="false" 
-          aria-label="Toggle navigation"
-        >
+        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
 

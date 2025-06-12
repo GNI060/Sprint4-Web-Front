@@ -1,0 +1,96 @@
+@import "../../styles/abstracts/bootstrap-config";
+
+.navbar {
+  background-color: $info;
+  padding: $spacer * 0.5 $spacer;
+  box-shadow: $box-shadow-sm;
+
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+    font-size: $h5-font-size;
+    font-weight: $font-weight-bold;
+    text-decoration: none;
+
+    img {
+      height: 50px;
+      margin-right: $spacer * 0.5;
+    }
+  }
+
+  .navbar-nav {
+    margin-left: auto;
+
+    .nav-link {
+      color: $gray-700;
+      margin-left: $spacer * 0.75;
+      text-decoration: none;
+
+      &:hover {
+        color: $primary;
+      }
+    }
+  }
+
+  .search-button {
+    background: none;
+    border: none;
+    color: $gray-700;
+    font-size: $font-size-base;
+    margin-left: $spacer * 0.75;
+    cursor: pointer;
+
+    &:hover {
+      color: $primary;
+    }
+  }
+
+  .mein-sabara-button {
+    background-color: $primary;
+    color: $white;
+    border: none;
+    padding: $btn-padding-y $btn-padding-x;
+    border-radius: $border-radius;
+    margin-left: $spacer * 0.75;
+    cursor: pointer;
+    font-size: $font-size-base;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+
+    &:hover {
+      background-color: darken($primary, 10%); 
+    }
+
+    i {
+      margin-right: $spacer * 0.25;
+      font-size: $font-size-base * 1.2;
+    }
+  }
+
+  @include media-breakpoint-down(md) {
+    .navbar-nav {
+      margin-left: 0;
+      margin-top: $spacer * 0.5;
+    }
+
+    .nav-link {
+      margin-left: 0;
+      margin-bottom: $spacer * 0.25;
+    }
+
+    .search-button,
+    .mein-sabara-button {
+      margin-left: 0;
+      margin-top: $spacer * 0.5;
+    }
+
+    .navbar-toggler {
+      border: none;
+    }
+
+    .navbar-toggler-icon {
+      background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(0, 123, 255, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    }
+  }
+}

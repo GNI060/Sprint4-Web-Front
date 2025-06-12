@@ -1,0 +1,45 @@
+@import "../../styles/abstracts/bootstrap-config";
+
+.projeto {
+  padding-top: $spacer * 6.25; 
+  min-height: 65vh;
+  display: flex;
+  flex-direction: column;
+
+  .row { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .text-primary { 
+    color: $blue; 
+  }
+
+  .col-md-6,
+  .col-12 { 
+    padding: $spacer * 0.75; 
+  }
+
+  .text-center { 
+    text-align: center;
+  }
+
+  .mb-4 { 
+    margin-bottom: $spacer * 1.5; 
+  }
+
+  .mt-5 { 
+    margin-top: $spacer * 3; 
+  }
+
+  .imagem-container img { 
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+}
+
+footer {
+  margin-top: auto;
+}

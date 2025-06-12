@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './cadastro.css';
+import './cadastro.scss';
 
 // LocalStorage
 function Cadastro() {

@@ -1,5 +1,5 @@
 import React from 'react';
-import './transferencias.css';
+import './transferencias.scss';
 
 function Transferencias() {
   return (

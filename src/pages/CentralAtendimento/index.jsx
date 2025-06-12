@@ -1,5 +1,5 @@
 import React from 'react';
-import './centralAtendimento.css';
+import './centralAtendimento.scss';
 
 function CentralAtendimento() {
   return (

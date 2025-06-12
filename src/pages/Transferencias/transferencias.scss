@@ -1,0 +1,39 @@
+@import "../../styles/abstracts/bootstrap-config";
+
+.text-center {
+  color: $blue; // #007bff
+}
+
+.cadastro-paciente {
+  min-height: 80vh;
+  padding-top: $spacer * 6.25; 
+
+  .formulario-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: $white;
+    border-radius: 10px;
+
+    h2 {
+      font-weight: $font-weight-bold;
+    }
+  }
+
+  .form-label { 
+    font-weight: $font-weight-semibold; 
+    color: $gray-800; 
+  }
+
+  input[type="radio"] {
+    margin-right: $spacer * 0.25; 
+  }
+
+  .btn-primary { 
+    background-color: $blue;
+    border: none;
+
+    &:hover {
+      background-color: darken($blue, 10%); 
+    }
+  }
+}

@@ -1,5 +1,5 @@
 import React from 'react';
-import './novidades.css';
+import './novidades.scss';
 
 function Novidades() {
   return (

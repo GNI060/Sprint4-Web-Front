@@ -1,0 +1,19 @@
+@import "../../styles/abstracts/bootstrap-config";
+
+.dispositivo-page {
+  padding-top: $spacer * 5; 
+}
+
+h1,
+h2 {
+  font-weight: $font-weight-bold;
+}
+
+p {
+  font-size: $font-size-base * 1.1;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}

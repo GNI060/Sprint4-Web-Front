@@ -12,6 +12,8 @@
   "dependencies": {
     "bootstrap": "^5.3.5",
     "bootstrap-icons": "^1.11.3",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-router-dom": "^7.5.2"
@@ -25,6 +27,20 @@
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.19",
     "globals": "^16.0.0",
+    "sass": "^1.89.2",
     "vite": "^6.3.1"
-  }
+  },
+  "description": "Este projeto apresenta o código-fonte do site institucional do **Hospital Sabará**, desenvolvido com ênfase em responsividade, reutilização de componentes e boas práticas em React. Foi elaborado como um exercício prático para aplicar e consolidar conhecimentos em **React com Vite** e **Bootstrap**.",
+  "main": "eslint.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GNI060/Sprint3-Web-Front.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GNI060/Sprint3-Web-Front/issues"
+  },
+  "homepage": "https://github.com/GNI060/Sprint3-Web-Front#readme"
 }
