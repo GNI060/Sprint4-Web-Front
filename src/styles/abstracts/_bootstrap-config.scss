@@ -1,7 +1,5 @@
-@import "bootstrap/scss/functions";
-@import "bootstrap/scss/variables";
-@import "bootstrap/scss/mixins";
-
 $primary: #6F42C1;
 $font-family-base: 'Poppins', sans-serif;
 $body-bg: #f8f9fa;
+
+@import "bootstrap/scss/bootstrap";

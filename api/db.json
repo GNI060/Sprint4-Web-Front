@@ -1,3 +1,10 @@
 {
-  "usuarios": []
+  "usuarios": [
+    {
+      "id": 1749835475698,
+      "nome": "Gustavo Naoto Iida",
+      "email": "emailteste@gmail.com",
+      "senha": "senha1234"
+    }
+  ]
 }
