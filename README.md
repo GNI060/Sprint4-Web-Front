@@ -53,14 +53,17 @@ Siga os passos abaixo para rodar o projeto localmente:
 git clone https://github.com/GNI060/Sprint4-Web-Front
 
 # 2. Acesse a pasta do projeto
-cd hospital-sabara
+cd sprint4
 
 # 3. Instale as dependências
 npm install
 
-# 4. Inicie o servidor de desenvolvimento
+# 4. Inicie o projeto
 npm run dev
-```
+
+# 5. Inicie o servidor da Api local
+cd api
+node server.js
 
 Por fim, acesse http://localhost:5173 no seu navegador.
 
