@@ -30,9 +30,6 @@ function Header() {
           </ul>
 
           <div className="d-flex justify-content-center align-items-center gap-2">
-            <button className="search-button" aria-label="Buscar">
-              <i className="bi bi-search"></i>
-            </button>
             <a href="/login" className="mein-sabara-button" aria-label="Entrar na conta">
               <i className="bi bi-person-fill"></i> Entrar
             </a>

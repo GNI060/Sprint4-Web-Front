@@ -1,6 +1,6 @@
 # 🏥 Hospital Sabará - Site Institucional
 
-Este projeto apresenta o código-fonte do site institucional do **Hospital Sabará**, desenvolvido com ênfase em responsividade, reutilização de componentes e boas práticas em React. Foi elaborado como um exercício prático para aplicar e consolidar conhecimentos em **React com Vite** e **Bootstrap**.
+Este projeto apresenta o código-fonte do site institucional do **Hospital Sabará**, desenvolvido com ênfase em responsividade, reutilização de componentes, boas práticas em React e integração com API local. Foi elaborado como um exercício prático para aplicar e consolidar conhecimentos em **React com Vite**, **Bootstrap** e uso de **SCSS** para estilização.
 
 ---
 
@@ -9,54 +9,56 @@ Este projeto apresenta o código-fonte do site institucional do **Hospital Sabar
 - [React](https://reactjs.org/)
 - [Vite](https://vitejs.dev/)
 - [Bootstrap 5](https://getbootstrap.com/)
+- [SCSS (Sass)](https://sass-lang.com/)
 - JavaScript (ES6+)
 - HTML5 + CSS3
 - Git & GitHub
+- API REST local 
 
 ---
 
 ## Objetivos do Projeto
 
-### **Desenvolvimento Back-End**
+### **Desenvolvimento Back-End e Integração**
 
-O objetivo é realizar a **migração do protótipo HTML**, da Sprint anterior, **para React** utilizando o **React + Vite**. O projeto deve ser estruturado em **componentes reutilizáveis**, com a organização do código em módulos e **imports** adequados.
+Nesta sprint, o foco incluiu a integração do front-end com uma **API local**, permitindo operações de login, cadastro e manipulação de dados do hospital. A comunicação com a API foi feita utilizando fetch/Axios para consumo RESTful.
 
 #### Exigências Técnicas:
-- **Migração para React**: Converter o protótipo HTML/CSS para uma aplicação React utilizando Vite.
 
-- **Estrutura em Componentes**: Organizar o código em **componentes reutilizáveis**, com **funcionalidade pai e filho**.
-
-- **Organização de Código**: Manter a estrutura do código organizada, utilizando **imports** e **modularização** adequadas.
-
-- **Versionamento**: O projeto deve ser versionado em uma **organização do GitHub**, com commits claros e organizados.
+- **Integração com API local**: Consumir endpoints para login, cadastro e outras funcionalidades.
+- **Tratamento de requisições e respostas** com gerenciamento de estados e feedbacks para o usuário.
+- **Uso de SCSS para estilização**: Aplicar pré-processador SCSS para organizar estilos, usando variáveis, mixins e aninhamento para manter o CSS modular e reutilizável.
+- Manter a estrutura em **componentes React** reutilizáveis e modularizados.
+- Versionamento contínuo no GitHub com commits claros.
 
 ---
 
 ### **Desenvolvimento Front-End**
 
-A partir do protótipo HTML criado nas sprints anteriores, o foco é realizar as **alterações e correções** com base nos feedbacks recebidos, além de **criar novas páginas e conteúdos**. Todo o desenvolvimento deve seguir as melhores práticas de front-end e ser **responsivo** para diferentes dispositivos.
+- **HTML Semântico** para acessibilidade e estrutura.
+- **Estilização com Bootstrap e SCSS** para design consistente, responsivo e manutenção facilitada.
+- **Responsividade** completa para desktop, tablet e mobile.
+- Uso de **localStorage** para armazenar dados locais do usuário, como tokens de autenticação.
+- Aplicação fiel ao protótipo e aos requisitos da sprint.
+- Documentação atualizada e clara.
 
-#### Exigências Técnicas:
-- **HTML Semântico**: Utilizar HTML semântico para garantir a estrutura adequada e acessível.
-- **Estilização com Bootstrap**: Aplicar o framework **Bootstrap** para a criação de componentes e grid layout, assegurando um design consistente e responsivo.
-- **Responsividade**: Garantir que o site seja **responsivo**, funcionando corretamente em **desktop, tablet e mobile**.
-- **Versionamento**: O projeto deve ser entregue com todos os arquivos necessários, versionado no GitHub ou compactado em formato `.zip`.
+---
 
 ## Instalação e Execução Local
 
 Siga os passos abaixo para rodar o projeto localmente:
 
 ```bash
-#1. Clone o repositório
-git clone https://github.com/GNI060/Sprint3-Web-Front
+# 1. Clone o repositório
+git clone https://github.com/GNI060/Sprint4-Web-Front
 
-#2. Acesse a pasta do projeto
+# 2. Acesse a pasta do projeto
 cd hospital-sabara
 
-#3. Instale as dependências
+# 3. Instale as dependências
 npm install
 
-#4. Inicie o servidor de desenvolvimento
+# 4. Inicie o servidor de desenvolvimento
 npm run dev
 ```
 
